@@ -24,9 +24,9 @@ Actor independence ensures no direct memory sharing, enhancing system efficiency
 
 ## Benchmark
 
-Sequential Average: 93.4313 seconds
-Parallel Average: 69.6493 seconds
-Actor Model Average: 277.8547 seconds
+* Sequential Average: 93.4313 seconds
+* Parallel Average: 69.6493 seconds
+* Actor Model Average: 277.8547 seconds
 
 ## Considerations
 
