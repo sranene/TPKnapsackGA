@@ -16,7 +16,7 @@ The system architecture for the Knapsack Genetic Algorithm (GA) with Actor Model
 7. **Termination**: The Customer increments generation count until reaching the desired number. Upon completion, it sends SystemKillMessage to terminate the ManagerActor and itself.
 Justifications and Synchronization:
 
-## Justifications and Synchronization**
+## Justifications and Synchronization
 
 ManagerActor supervises MFActors and CMActors for parallel fitness and genetic operations.
 Optimization includes handling best individual computation within ManagerActor and message-based synchronization.
